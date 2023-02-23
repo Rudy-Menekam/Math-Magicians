@@ -1,7 +1,6 @@
 import React from 'react';
 
 function Calculator() {
-  // eslint-disable-next-line react/button-has-type
   return (
     <div className="calculator">
       <div className="calculator-input">
