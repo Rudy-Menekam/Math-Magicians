@@ -1,39 +1,79 @@
-.App {
+div {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.result {
+  padding: 15px;
+  text-align: end;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.calculator {
+  width: 32rem;
+  height: 23rem;
+  background-color: #858693;
+  display: grid;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.calculator-input {
+  text-align: right;
+  font-weight: bold;
+  font-size: xx-large;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.calculator-keypad {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+button {
+  padding: 20px;
+  border: 0.1px solid #858693;
+}
+
+.keys-numbers {
+  color: #000;
+  font-size: 1em;
+  font-weight: bold;
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.keys-operators {
+  color: #000;
+  background-color: #f5913e;
+  font-size: 1em;
+  font-weight: bold;
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.keys-function {
+  font-size: 1em;
+  font-weight: bold;
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.key-zero {
+  width: 62.5%;
 }
