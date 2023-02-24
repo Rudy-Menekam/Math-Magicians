@@ -77,3 +77,15 @@ button {
 .key-zero {
   width: 62.5%;
 }
+
+.keys-numbers:hover {
+  background-color: #979797;
+}
+
+.keys-function:hover {
+  background-color: #979797;
+}
+
+.keys-operators:hover {
+  background-color: #de6c0f;
+}
