@@ -113,8 +113,8 @@ li {
 }
 
 .para {
-    padding-top: 20%;
-    text-align: center;
+  padding-top: 20%;
+  text-align: center;
 }
 
 .content {
@@ -122,7 +122,7 @@ li {
   margin: 30px;
 }
 
-.cal{
+.cal {
   display: flex;
   padding-top: 10%;
   justify-content: space-between;
