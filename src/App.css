@@ -12,12 +12,6 @@ div {
   width: 32rem;
   height: 23rem;
   background-color: #858693;
-  display: grid;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   margin: auto;
 }
 
@@ -88,4 +82,49 @@ button {
 
 .keys-operators:hover {
   background-color: #de6c0f;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  width: 19px;
+}
+
+hr {
+  align-items: center;
+  height: 1px;
+  background-color: black;
+}
+
+li {
+  cursor: pointer;
+}
+
+.para {
+    padding-top: 20%;
+    text-align: center;
+}
+
+.content {
+  text-align: start;
+  margin: 30px;
+}
+
+.cal{
+  display: flex;
+  padding-top: 10%;
+  justify-content: space-between;
+  margin-left: 28px;
 }
